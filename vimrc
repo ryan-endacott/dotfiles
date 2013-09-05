@@ -39,5 +39,11 @@ inoremap jj <Esc>
 
 let mapleader = ","
 
+" Easier split tab switching
+nnoremap H <C-w>h
+nnoremap J <C-w>j
+nnoremap K <C-w>k
+nnoremap L <C-w>l
+
 source ~/.vim/plugins.vim " Load plugin config
 
