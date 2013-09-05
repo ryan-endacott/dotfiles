@@ -25,8 +25,12 @@ Bundle 'scrooloose/nerdcommenter'
 " fuzzy file open
 Bundle 'kien/ctrlp.vim'
 
-" manipulation of surraunding parens, quotes, etc.
+" manipulation of surrounding parens, quotes, etc.
 Bundle 'tpope/vim-surround'
+
+" Nerdtree tab management
+Bundle 'jistr/vim-nerdtree-tabs'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
