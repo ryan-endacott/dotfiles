@@ -10,8 +10,8 @@ colorscheme zenburn
 " Koehler, Zenburn, Evening, Wombat, Inkpot, Jellybeans
 
 " Junk to set up the autoindent!
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 filetype indent on
 
