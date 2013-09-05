@@ -31,6 +31,12 @@ Bundle 'tpope/vim-surround'
 " Nerdtree tab management
 Bundle 'jistr/vim-nerdtree-tabs'
 
+" Auto insert `end` in ruby
+Bundle 'tpope/vim-endwise'
+
+" Auto close brackets, etc
+Bundle 'Raimondi/delimitMate'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
