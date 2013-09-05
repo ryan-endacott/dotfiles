@@ -54,7 +54,6 @@ filetype plugin indent on     " required!
 
 " ------------------------------------- End Vundle
 
-source ~/.vim/plugins.vim " Load plugin config
 
 " Junk for allowing 256 colors
 set term=builtin_xterm
@@ -94,4 +93,5 @@ inoremap jj <Esc>
 
 let mapleader = ","
 
+source ~/.vim/plugins.vim " Load plugin config
 
