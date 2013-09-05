@@ -61,7 +61,6 @@ set wildmode=list:longest,full
 
 " Remap semicolon to be colon, so it is easier to do vim commands.
 nore ; :
-nore , ;
 
 " Set the scrolling to be more fluid and show more
 set sidescrolloff=5
@@ -77,4 +76,7 @@ nore p ]p
 
 " Remap jj to escape out of insert mode!  Wonderful!
 inoremap jj <Esc> 
+
+let mapleader = ","
+
 
