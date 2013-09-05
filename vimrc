@@ -14,6 +14,19 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
+"
+" file tree
+Bundle 'scrooloose/nerdtree'
+
+" commenting
+Bundle 'scrooloose/nerdcommenter'
+
+" fuzzy file open
+Bundle 'kien/ctrlp.vim'
+
+" manipulation of surraunding parens, quotes, etc.
+Bundle 'tpope/vim-surround'
+
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
