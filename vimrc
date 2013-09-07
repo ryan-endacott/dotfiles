@@ -6,8 +6,8 @@ set term=builtin_xterm
 set t_Co=256
 
 " Colors I like!
-colorscheme zenburn
-" Koehler, Zenburn, Evening, Wombat, Inkpot, Jellybeans
+colorscheme molokai
+" Koehler, Zenburn, Evening, Wombat, Inkpot, Jellybeans, molokai
 
 " Junk to set up the autoindent!
 set softtabstop=2
