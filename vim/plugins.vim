@@ -34,3 +34,8 @@ let g:ctrlp_max_height = 40
 "let g:ctrlp_match_window_reversed = 0
 
 
+" Rspec.vim mappings
+map <leader>t :call RunCurrentSpecFile()<CR>
+map <leader>s :call RunNearestSpec()<CR>
+map <leader>l :call RunLastSpec()<CR>
+map <leader>a :call RunAllSpecs()<CR>

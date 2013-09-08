@@ -37,6 +37,8 @@ Bundle 'tpope/vim-endwise'
 " Auto close brackets, etc
 Bundle 'Raimondi/delimitMate'
 
+Bundle 'thoughtbot/vim-rspec'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
