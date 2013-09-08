@@ -31,7 +31,7 @@ for file in $files; do
 done
 
 echo "Installing Vundle..."
-test -d bundle/vundle || (mkdir -p bundle && cd bundle && git clone https://github.com/gmarik/vundle.git)
+test -d vim/bundle/vundle || (mkdir -p vim/bundle && cd vim/bundle && git clone https://github.com/gmarik/vundle.git)
 
 vim +BundleInstall +qall
 
