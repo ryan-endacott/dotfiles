@@ -30,4 +30,9 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
+echo "Installing Vundle..."
+test -d bundle/vundle || (mkdir -p bundle && cd bundle && git clone https://github.com/gmarik/vundle.git)
+
+vim +BundleInstall +qall
+
 
