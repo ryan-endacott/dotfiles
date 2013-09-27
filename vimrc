@@ -9,6 +9,9 @@ set t_Co=256
 colorscheme molokai
 " Koehler, Zenburn, Evening, Wombat, Inkpot, Jellybeans, molokai
 
+" fix paren highlighting
+hi MatchParen cterm=bold ctermbg=none ctermfg=31
+
 " Junk to set up the autoindent!
 set softtabstop=2
 set shiftwidth=2
@@ -44,6 +47,7 @@ nnoremap H <C-w>h
 nnoremap J <C-w>j
 nnoremap K <C-w>k
 nnoremap L <C-w>l
+
 
 source ~/.vim/plugins.vim " Load plugin config
 
