@@ -39,6 +39,12 @@ Bundle 'Raimondi/delimitMate'
 
 Bundle 'thoughtbot/vim-rspec'
 
+" handlebars syntax highlighting
+Bundle 'nono/vim-handlebars'
+
+" markdown
+Bundle 'plasticboy/vim-markdown'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
