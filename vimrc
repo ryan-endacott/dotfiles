@@ -9,6 +9,9 @@ set t_Co=256
 colorscheme molokai
 " Koehler, Zenburn, Evening, Wombat, Inkpot, Jellybeans, molokai
 
+" fix paren highlighting
+hi MatchParen cterm=bold ctermbg=none ctermfg=31
+
 " Junk to set up the autoindent!
 set softtabstop=2
 set shiftwidth=2
@@ -35,7 +38,7 @@ set number      " line numbers
 nore p ]p
 
 " Remap jj to escape out of insert mode!  Wonderful!
-inoremap jj <Esc> 
+inoremap jj <Esc>
 
 let mapleader = ","
 
