@@ -45,5 +45,19 @@ nnoremap J <C-w>j
 nnoremap K <C-w>k
 nnoremap L <C-w>l
 
+" Strip trailing whitespace on save:
+fun! <SID>StripTrailingWhitespaces()
+  let l = line(".")
+  let c = col(".")
+  %s/\s\+$//e
+  call cursor(l, c)
+endfun
+
+" Get rid of swp file clutter
+set backupdir=./.backup,/tmp
+set directory=./.backup,/tmp
+
+autocmd FileType * autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+
 source ~/.vim/plugins.vim " Load plugin config
 
