@@ -48,6 +48,9 @@ Bundle 'plasticboy/vim-markdown'
 " Jade syntax highlighting
 Bundle 'digitaltoad/vim-jade'
 
+" Go stuff
+Bundle 'jnwhiteh/vim-golang'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'

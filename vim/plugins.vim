@@ -39,3 +39,11 @@ map <leader>t :call RunCurrentSpecFile()<CR>
 map <leader>s :call RunNearestSpec()<CR>
 map <leader>l :call RunLastSpec()<CR>
 map <leader>a :call RunAllSpecs()<CR>
+
+
+" Gofmt files when saved
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
+
+" fix golang indentation
+autocmd FileType go setlocal shiftwidth=2 tabstop=2 noexpandtab
+
