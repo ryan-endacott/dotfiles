@@ -51,6 +51,9 @@ Bundle 'digitaltoad/vim-jade'
 " Go stuff
 Bundle 'jnwhiteh/vim-golang'
 
+" Git Gutter
+Bundle 'airblade/vim-gitgutter'
+
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
