@@ -42,8 +42,12 @@ map <leader>a :call RunAllSpecs()<CR>
 
 
 " Gofmt files when saved
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
+" Disabled b/c golang plugin does it now.
+autocmd BufWritePre *.go silent Fmt
 
 " fix golang indentation
 autocmd FileType go setlocal shiftwidth=2 tabstop=2 noexpandtab
+
+" Golang plugin settings.
+"let g:go_fmt_fail_silently = 1
 

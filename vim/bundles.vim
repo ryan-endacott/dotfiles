@@ -19,6 +19,9 @@ Bundle 'gmarik/vundle'
 " file tree
 Bundle 'scrooloose/nerdtree'
 
+" Processing syntax
+Bundle 'sophacles/vim-processing'
+
 " commenting
 Bundle 'scrooloose/nerdcommenter'
 
@@ -54,6 +57,9 @@ Bundle 'jnwhiteh/vim-golang'
 " Git Gutter
 Bundle 'airblade/vim-gitgutter'
 
+" JSX
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
