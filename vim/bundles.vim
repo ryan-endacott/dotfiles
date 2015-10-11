@@ -52,7 +52,7 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'digitaltoad/vim-jade'
 
 " Go stuff
-Bundle 'jnwhiteh/vim-golang'
+Bundle 'fatih/vim-go'
 
 " Git Gutter
 Bundle 'airblade/vim-gitgutter'
@@ -60,6 +60,9 @@ Bundle 'airblade/vim-gitgutter'
 " JSX
 Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
+
+" YouCompleteMe
+Bundle 'Valloric/YouCompleteMe'
 
 "Bundle 'tpope/vim-fugitive'
 "Bundle 'Lokaltog/vim-easymotion'
