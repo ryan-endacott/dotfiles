@@ -40,14 +40,10 @@ map <leader>s :call RunNearestSpec()<CR>
 map <leader>l :call RunLastSpec()<CR>
 map <leader>a :call RunAllSpecs()<CR>
 
-
-" Gofmt files when saved
-" Disabled b/c golang plugin does it now.
-autocmd BufWritePre *.go silent Fmt
+" goimports and fail silently
+let g:go_fmt_command = "goimports"
+let g:go_fmt_fail_silently = 1
 
 " fix golang indentation
 autocmd FileType go setlocal shiftwidth=2 tabstop=2 noexpandtab
-
-" Golang plugin settings.
-"let g:go_fmt_fail_silently = 1
 
