@@ -62,5 +62,8 @@ set directory=./.backup,/tmp
 
 autocmd FileType * autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
+" Indent html, body, and head in html.
+let g:html_indent_inctags = "html,body,head,tbody"
+
 source ~/.vim/plugins.vim " Load plugin config
 
