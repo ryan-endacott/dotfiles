@@ -30,9 +30,13 @@ for file in $files; do
     ln -s $dir/$file ~/.$file
 done
 
+echo "Sourcing custom .bashrc at the end of existing .bashrc."
+printf "# Import custom dotfiles bashrc.\nsource ~/$dir/bashrc\n\n" >> ~/.bashrc
+
 echo "Installing Vundle..."
 git clone https://github.com/gmarik/vundle.git ~/dotfiles/vim/bundle/vundle
 
 vim +BundleInstall +qall
+
 
 
